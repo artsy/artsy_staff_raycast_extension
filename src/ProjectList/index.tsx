@@ -1,5 +1,5 @@
 import { List } from "@raycast/api";
-import { defaultProjects } from "./defaultProjects";
+import { defaultProjects } from "../defaultProjects";
 import { ProjectActions } from "./ProjectActions";
 import { ProjectDetails } from "./ProjectDetails";
 

@@ -1,5 +1,5 @@
 import { Action, ActionPanel, Icon, getPreferenceValues } from "@raycast/api";
-import { Project } from "./defaultProjects";
+import { Project } from "../defaultProjects";
 
 interface ProjectActionsProps {
   project: Project;

@@ -1,5 +1,5 @@
 import { List } from "@raycast/api";
-import { Project } from "./defaultProjects";
+import { Project } from "../defaultProjects";
 
 interface ProjectItemDetailProps {
   project: Project;

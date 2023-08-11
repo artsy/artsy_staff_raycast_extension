@@ -13,6 +13,13 @@
       "name": "project_list",
       "subtitle": "List of Artsy Projects",
       "title": "Artsy Projects"
+    },
+    {
+      "description": "Quick Access to Artsy Projects.",
+      "mode": "view",
+      "name": "quick_access",
+      "subtitle": "Quick Access to Artsy Projects",
+      "title": "Artsy Projects - Quick Access"
     }
   ],
   "preferences": [
