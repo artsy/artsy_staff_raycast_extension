@@ -15,6 +15,25 @@
       "title": "Artsy Projects"
     }
   ],
+  "preferences": [
+    {
+      "name": "editor",
+      "type": "textfield",
+      "required": true,
+      "title": "Editor",
+      "description": "The editor to use for opening repositories.",
+      "placeholder": "Enter the name of your editor",
+      "default": "com.microsoft.VSCode"
+    },
+    {
+      "name": "project_root_path",
+      "type": "textfield",
+      "required": true,
+      "title": "Artsy Project Root Path",
+      "description": "The path to the root of your Artsy projects.",
+      "placeholder": "Enter the path to your Artsy projects"
+    }
+  ],
   "dependencies": {
     "@raycast/api": "^1.52.1"
   },
