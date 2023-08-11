@@ -15,11 +15,11 @@
       "title": "Artsy Projects"
     },
     {
-      "description": "Quick Access to Artsy Projects.",
+      "description": "List of Artsy Links.",
       "mode": "view",
-      "name": "quick_access",
-      "subtitle": "Quick Access to Artsy Projects",
-      "title": "Artsy Projects - Quick Access"
+      "name": "link_list",
+      "subtitle": "List of Artsy Links.",
+      "title": "Artsy Links"
     }
   ],
   "preferences": [

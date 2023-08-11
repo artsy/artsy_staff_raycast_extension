@@ -2,7 +2,7 @@ import { Action, ActionPanel, Icon, List, getPreferenceValues } from "@raycast/a
 import { useState } from "react";
 import { defaultProjects } from "../defaultProjects";
 
-export const QuickAccess = () => {
+export const LinkList = () => {
   const projects = defaultProjects;
 
   const [searchText, setSearchText] = useState("");
