@@ -1,16 +1,13 @@
 import { Action, ActionPanel, Icon, List, getPreferenceValues } from "@raycast/api";
-import { homedir } from "os";
 import { useState } from "react";
 import { defaultProjects } from "../defaultProjects";
-
-const projectRoot = `${homedir()}/artsy`;
 
 export const QuickAccess = () => {
   const projects = defaultProjects;
 
   const [searchText, setSearchText] = useState("");
 
-  const { editor } = getPreferenceValues<Preferences>();
+  const { editor, project_root_path } = getPreferenceValues<Preferences>();
 
   return (
     <List onSearchTextChange={setSearchText} filtering>
@@ -25,7 +22,7 @@ export const QuickAccess = () => {
                 title={`${project.name}`}
                 icon={Icon.Code}
                 application={editor}
-                target={`${projectRoot}/${project.name.toLowerCase()}`}
+                target={`${project_root_path}/${project.name.toLowerCase()}`}
               />
               {project.links.map(({ target, title }, index) => (
                 <Action.OpenInBrowser url={target} title={title} icon={Icon.Bookmark} key={index} />
